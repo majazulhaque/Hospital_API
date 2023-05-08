@@ -26,22 +26,22 @@ We will use postman to check the api is working or not,So download postman on yo
 
 1.Now use this **http://localhost:5000/api/v1/doctors/register** route to register doctor in API and add the info as shown in image
 
-![image](https://drive.google.com/file/d/1QoQGNYc_DkzdEb0HR0P-bFs-5BGwug4f/view?usp=sharing)
+![image](Register_doctor.png)
 
 2.Use this **http://localhost:5000/api/v1/doctors/login** to login as a doctor and add info as shown in image
 
-![image](https://drive.google.com/file/d/16Cskno-LLWynGPcFirNtZO0P6e0-8fF9/view?usp=sharing)
+![image](login_doctor.png)
 
 3.Use this **http://localhost:5000/api/v1/patients/register** and add the token in authorization area which is recieved in second point
 
-![image](https://drive.google.com/file/d/1oVr24dsqw55VJFhCdTBVkaF3sLPKu0ke/view?usp=sharing)
+![image](register_patients.png)
 
 4. Use this **http://localhost:5000/api/v1/patients/62c31cc86a84003324d04cb5/create_report** to create report and add status you can see the types of 
    status in report model.
 
-![image](https://drive.google.com/file/d/1RUFrqxBw7Wi10tjuWyldbY1h77AqeURV/view?usp=sharing)
+![image](create_reports.png)
 
 
 5. Use this **http://localhost:5000/api/v1/patients/62c31cc86a84003324d04cb5/all_reports** to get all the reports.
 
-![image](https://drive.google.com/file/d/1NHzy18X4vH_5PV_5UqInn7aJPO77I2Rj/view?usp=sharing)
+![image](all_reports.png)
